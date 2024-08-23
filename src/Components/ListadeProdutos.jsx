@@ -9,8 +9,8 @@ export default function ListadeProdutos ({produtos}){
                     <div className="conteudo">
                         <h1 className="destaque">{objeto.nome}</h1>
                         <p className="valor">{objeto.valor}</p>
-                    </div>
                     <button className="comprar">Comprar</button>
+                    </div>
                 </div>
             ))
         }
