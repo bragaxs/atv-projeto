@@ -1,14 +1,16 @@
 import {Link} from "react-router-dom";
-export default function Header(){
 
+export default function Header(){
+return(
     <header className="header">
         <nav>
             <ul>
     <Link to="/">
-        <li className="estilização-home">Home</li></Link> 
-    <Link to="/produtos"> <li className="estilização-produtos">Produtos</li></Link> 
-    <Link to="/ofertas"><li className="estilização-ofertas">Ofertas</li></Link> 
+        <h1 className="estilização-paginas">Home</h1></Link> 
+    <Link to="/produtos"> <h1 className="estilização-paginas">Produtos</h1></Link> 
+    <Link to="/ofertas"><h1 className="estilização-paginas">Ofertas</h1></Link> 
         </ul>
     </nav>
     </header>
+)
 } 

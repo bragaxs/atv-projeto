@@ -8,7 +8,10 @@ export default function ListadeProdutos ({produtos}){
                     <img className="imagem" src={objeto.image}/>
                     <div className="conteudo">
                         <h1 className="destaque">{objeto.nome}</h1>
-                        <p className="valor">{objeto.valor}</p>
+                        <p className="valor">{objeto.preço}</p>
+                        <p className="marca">{objeto.marca}</p>
+                        <p className="ano">{objeto.ano}</p>
+                        <p className="condicao">{objeto.condicao}</p>
                     <button className="comprar">Comprar</button>
                     </div>
                 </div>
