@@ -75,11 +75,13 @@ export default function Produtos(){
             ano: 2009,
             image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/ec6206c6979742df8b68f2e72c65831b_1703866152153.jpg',
         },
-            nome: ,
-            preço: ,
-            modelo: ,
-            ano: ,
-            image: ,
+        {
+            nome: 'Audi - R8 5.2 V10 COUPE - 2015',
+            preço: 'R$900.000',
+            modelo: 'Esportivo',
+            ano: 2015,
+            image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/100dfcdf6dd0412196dd2b06647adb47_1708428556830.jpg',
+        },
         {
             nome: 'Land Rover - Range Rover Sport First Edition 3.0 - 2023',
             preço: 'R$1200.000',
@@ -87,69 +89,77 @@ export default function Produtos(){
             ano: 2023,
             image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/df103b452b4a44d7b9e493b6241d15b7_1674577918465.jpg',
         },
-            nome: ,
-            preço: ,
-            modelo: ,
-            ano: ,
-            image: ,
         {
-            nome: ,
-            preço: ,
-            modelo: ,
-            ano: ,
-            image: ,
+            nome: 'Porsche - Macan S - 2024',
+            preço: 'R$1200.000',
+            modelo: 'SUV',
+            ano: '2024',
+            image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/c4ff4991355f4e19b1ef3189dc9569ab_1645214670094.jpg',
         },
-            nome: ,
-            preço: ,
-            modelo: ,
-            ano: ,
-            image: ,
         {
-            nome: ,
-            preço: ,
-            modelo: ,
-            ano: ,
-            image: ,
+            nome: 'Chrysler - Pacifica Pinnacle AWD 3.6 Hibrido - 2024',
+            preço: 'R$800.000',
+            modelo: 'SUV',
+            ano: 2024,
+            image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/b78eaa2398654e0d8f3890d8c5239383_1661347727125.jpg',
         },
-            nome: ,
-            preço: ,
-            modelo: ,
-            ano: ,
-            image: ,
         {
-            nome: ,
-            preço: ,
-            modelo: ,
-            ano: ,
-            image: ,
+            nome: 'Porsche - Taycan 4S - 202',
+            preço: 'R$800.000',
+            modelo: 'Esportivo',
+            ano: 2022,
+            image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/d9dbd8b0b47645b3b6f9523f164b6e36_1698318073331.jpg',
+        },
+        {
+            nome: 'Mercedes-Benz - S 63 L AMG 5.5 V8 - 2016',
+            preço: 'R$790.990',
+            modelo: 'Esportivo',
+            ano: 2016,
+            image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/78ea8efc3df54343ad74fa787f981923_1719493725493.jpg',
+        },
+        {
+            nome: 'GMC - Hummer H1 6.5 - 1987',
+            preço: 'R$800.000',
+            modelo: 'SUV de Combate',
+            ano: 1987,
+            image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/e185110d7e6e45bea4a618efac00d4b5_1711477632757.jpg',
+        },
+        {
+            nome: 'Audi - R8 Spider V10 - 2012',
+            preço: 'R$750.000',
+            modelo: 'Esportivo',
+            ano: 2015,
+            image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/a9184e9ac2cc4c44a95b131ce7631598_1711050499421.jpg',
         },
 
     ])
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-export default function Home (){
-    return(
+    return (
         <>
-         <Header/>
-          <h1>produtos</h1>
+            <Header />
+            <div className="ofertas-container">
+                <h1>Produtos</h1>
+                <ListarProdutos props={produtos} />
+            </div>
+            <Footer />
         </>
-    )
+    );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

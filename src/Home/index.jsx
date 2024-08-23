@@ -2,6 +2,8 @@ import Header from "../Components/Header";
 import {Carousel} from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { useState } from "react";
+import ListadeProdutos from "../Components/ListadeProdutos";
+import Footer from "../Components/Footer";
 export default function Home(){
     const [produtos, setProdutos] = useState([
 {
@@ -45,23 +47,24 @@ return (
         <Header />
         <Carousel
             infiniteloop
-            usekeyboardArrows
-            autoplay
+            useKeyboardArrows
+            autoPlay
             showArrows={true}
             showStatus={true}
-            showThumb={false}
+            showThumbs={false}
         >
             <div>
-                <img src="https://bocamafrapremium.com.br/wp-content/uploads/2024/05/ref1_Boca_Mafra_Premium_Banner_Site_2024_Porsche911Azul.jpg" />
+                <img src="https://bocamafrapremium.com.br/wp-content/uploads/2024/05/ref1_Boca_Mafra_Premium_Banner_Site_2024_Porsche911Azul.jpg" alt="Porsche" />
             </div>
             <div>
-                <img src="https://bocamafrapremium.com.br/wp-content/uploads/2024/08/ref1_Boca_Mafra_Premium_Banner_site_2024_Lamborghini-HuracanEvo.jpg" />
+                <img src="https://bocamafrapremium.com.br/wp-content/uploads/2024/08/ref1_Boca_Mafra_Premium_Banner_site_2024_Lamborghini-HuracanEvo.jpg" alt="Lamborghini" />
             </div>
             <div>
-                <img src="https://bocamafrapremium.com.br/wp-content/uploads/2024/05/ref1_Boca_Mafra_Premium_Banner_Site_2024_MaseratiMC20_Branca.jpg" />
+                <img src="https://bocamafrapremium.com.br/wp-content/uploads/2024/05/ref1_Boca_Mafra_Premium_Banner_Site_2024_MaseratiMC20_Branca.jpg" alt="Maserati" />
             </div>
         </Carousel>
-        <div>
-        </div>
+        <ListadeProdutos produtos={produtos} />
+        <Footer />
     </>
-)};
+);
+}

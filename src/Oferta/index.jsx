@@ -1,8 +1,6 @@
 import Header from "../Components/Header";
 import React, {useState} from "react";
-import Header from '../Components/Header';
 import Footer from '../Components/Footer';
-import ListarProdutos from '../Components/ListarProdutos';
  
 export default function Ofertas(){
     const [produtos, setProdutos] = useState([
@@ -79,4 +77,14 @@ export default function Ofertas(){
         },
         
     ])
+    return (
+        <>
+            <Header />
+            <div className="ofertas-container">
+                <h1>Ofertas</h1>
+                <ListarProdutos props={produtos} />
+            </div>
+            <Footer />
+        </>
+    );
 }

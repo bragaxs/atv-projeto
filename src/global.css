@@ -1,3 +1,24 @@
 body{
-    background-color: gray;
+    background-color: rgb(143, 137, 137);
+}
+
+.imagem{
+    width: 200px;
+    height: 200px;
+}
+
+.destaque{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.comprar{
+    background-color: #ffc400; /* Cor de fundo do botão, ajuste conforme o tema do seu site */
+    color: #000000; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Peso da fonte */
+    cursor: pointer; /* Cursor de ponteiro ao passar sobre o botão */
+    transition: background-color 0.3s, transform 0.2s
 }
