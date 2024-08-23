@@ -12,7 +12,7 @@ export default function Produtos() {
             ano: 2022,
             image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/609c041bb0984d4d9fbdfdde49006d46_1724246900521.jpg',
             marca: 'Cadillac',
-            condicao: 'Novo' 
+            condicao: ['Novo'] 
         },
         {
             nome: 'Tesla - Model X Plaid - 2023',
@@ -21,7 +21,7 @@ export default function Produtos() {
             ano: 2023,
             image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/b6ab8f3ff3644fc7b6f3f0de377dd801_1658174177804.jpg',
             marca: 'Tesla',
-            condicao: 'Novo' 
+            condicao: ['Novo'] 
         },
         {
             nome: 'Porsche - 911 Carrera 4S Cabrio - 2021',
@@ -30,7 +30,7 @@ export default function Produtos() {
             ano: 2022,
             image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/2301512e576944b08cc8ba6c63b055db_1716474344985.jpg',
             marca: 'Porsche',
-            condicao: 'Usado' 
+            condicao: ['Usado'] 
         },
         {
             nome: 'Porsche - Cayenne S 4.0 V8 - 2024',
@@ -39,7 +39,7 @@ export default function Produtos() {
             ano: 2024,
             image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/6863dba1eb974df8ab3579a1ee1e7abe_1715454174173.jpg',
             marca: 'Porsche',
-            condicao: 'Novo' 
+            condicao: ['Novo'] 
         },
         {
             nome: 'Porsche - 911 Carrera Cabriolet 3.0 - 2022',
@@ -48,7 +48,7 @@ export default function Produtos() {
             ano: 2022,
             image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/4aef97bd0a4c492293f5b3d4216c3340_1718824899157.jpg',
             marca: 'Porsche',
-            condicao: 'Novo' 
+            condicao: ['Novo'] 
         },
         {
             nome: 'Lamborghini - Huracan Evo Coupe V10 - 2022',
@@ -57,7 +57,7 @@ export default function Produtos() {
             ano: 2022,
             image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/cb2edbfecbe3463eb65b3bf9e594e081_1722864848431.jpg',
             marca: 'Lamborghini',
-            condicao: 'Novo' 
+            condicao: ['Novo'] 
         },
         {
             nome: 'Ferrari - 296 GTB 3.0 V6 Hibrido - 2024',
@@ -66,7 +66,7 @@ export default function Produtos() {
             ano: 2024,
             image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/50689baba6614083ac5f720574a0507a_1715004007193.jpg',
             marca: 'Ferrari',
-            condicao: 'Novo' 
+            condicao: ['Novo'] 
         },
         {
             nome: 'Mercedes-Benz - Amg GT C Roadster 7G - 2020',
@@ -75,7 +75,7 @@ export default function Produtos() {
             ano: 2020,
             image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/69f532b4481a485ca3d80e499f646bcf_1719511326592.jpg',
             marca: 'Mercedes-Benz',
-            condicao: 'Usado' 
+            condicao: ['Usado'] 
         },
         {
             nome: 'Chevrolet - Corvette LT2 Conversivel 6.2 V8 série 70 anos - 2023',
@@ -84,7 +84,7 @@ export default function Produtos() {
             ano: 2023,
             image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/123c3059925340b480e798704c7da867_1675268206522.jpeg',
             marca: 'Chevrolet',
-            condicao: 'Novo'
+            condicao: ['Novo']
         },
         {
             nome: 'Lamborghini - Gallardo Spyder LP 560-4 5.2 V10 - 2009',
@@ -93,7 +93,7 @@ export default function Produtos() {
             ano: 2009,
             image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/ec6206c6979742df8b68f2e72c65831b_1703866152153.jpg',
             marca: 'Lamborghini',
-            condicao: 'Usado' 
+            condicao: ['Usado'] 
         },
         {
             nome: 'Audi - R8 5.2 V10 COUPE - 2015',
@@ -102,7 +102,7 @@ export default function Produtos() {
             ano: 2015,
             image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/100dfcdf6dd0412196dd2b06647adb47_1708428556830.jpg',
             marca: 'Audi',
-            condicao: 'Usado' 
+            condicao: ['Usado'] 
         },
         {
             nome: 'Land Rover - Range Rover Sport First Edition 3.0 - 2023',
@@ -111,7 +111,7 @@ export default function Produtos() {
             ano: 2023,
             image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/df103b452b4a44d7b9e493b6241d15b7_1674577918465.jpg',
             marca: 'Land Rover',
-            condicao: 'Novo' 
+            condicao: ['Novo'] 
         },
         {
             nome: 'Porsche - Macan S - 2024',
@@ -120,7 +120,7 @@ export default function Produtos() {
             ano: 2024,
             image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/c4ff4991355f4e19b1ef3189dc9569ab_1645214670094.jpg',
             marca: 'Porsche',
-            condicao: 'Novo' 
+            condicao: ['Novo'] 
         },
         {
             nome: 'Chrysler - Pacifica Pinnacle AWD 3.6 Hibrido - 2024',
@@ -129,7 +129,7 @@ export default function Produtos() {
             ano: 2024,
             image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/b78eaa2398654e0d8f3890d8c5239383_1661347727125.jpg',
             marca: 'Chrysler',
-            condicao: 'Novo' 
+            condicao: ['Novo'] 
         },
         {
             nome: 'Porsche - Taycan 4S - 2022',
@@ -138,7 +138,7 @@ export default function Produtos() {
             ano: 2022,
             image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/d9dbd8b0b47645b3b6f9523f164b6e36_1698318073331.jpg',
             marca: 'Porsche',
-            condicao: 'Novo' 
+            condicao: ['Novo'] 
         },
         {
             nome: 'Mercedes-Benz - S 63 L AMG 5.5 V8 - 2016',
@@ -147,7 +147,7 @@ export default function Produtos() {
             ano: 2016,
             image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/78ea8efc3df54343ad74fa787f981923_1719493725493.jpg',
             marca: 'Mercedes',
-            condicao: 'Usado' 
+            condicao: ['Usado'] 
         },
         {
             nome: 'Mercedes Benz S680',
@@ -156,7 +156,7 @@ export default function Produtos() {
             ano: 2022,
             image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/2d092aa40d57494dbc72167c0e41d650_1705778128279.jpg',
             marca: 'Mercedes Benz',
-            condicao: 'Novo' 
+            condicao: ['Novo'] 
         },
         {
             nome: 'Audi - R8 Spider V10 - 2012',
@@ -165,7 +165,7 @@ export default function Produtos() {
             ano: 2015,
             image: 'https://bocamafrapremium.com.br/wp-content/uploads/2024/08/a9184e9ac2cc4c44a95b131ce7631598_1711050499421.jpg',
             marca: 'Audi',
-            condicao: 'Usado' 
+            condicao: ['Usado'] 
         },
     ]);
     return (
